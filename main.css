@@ -1,0 +1,30 @@
+
+.top {
+	background-color: #167AC6;
+
+}
+img.smalltobig {
+	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {text-align: center;
+}	
+h2 {
+	text-align: center
+}
+p {
+	text-align: center;
+}
+.location  {
+	text-align: center;
+}
+
+.bottom {
+	margin-top: 75em;
+	border-top: 23em;
+
+
+}
