@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--<html lang="en">-->
+<html>
 <head>
 	<meta charset="UTF-8">
 	<title>GasApi</title>
-	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7buZcMEjcjwpMa8qztndpYmCxxP-Te2A&signed_in=true&libraries=places&callback=initAutocomplete" async defer></script>
+	
+	<script type="text/javascript" src="app2.js"></script>
+	<link rel="stylesheet" href="main2.css">
+
 </head>
+
+
+
+
 <body>
+	
+      
+    
+
 	<div class = "top"> 
 	<img src ="img/smalltobig.jpeg" class= "smalltobig" alt= "picture of a gas pump" width ="300em">
 	<h1> GAS STATION WHERE ART THOU!</h1>
+	<h4> Please allow us to use your current location<h4>
     </div>
-	<div class= "middle"> </div>
-	<p> Please enter your location for the nearest station</p>
-	<form class="location" onsubmit="return false;">
+	<div class= "middle"> 
+	<p> Please enter "gas station" in the search box to get the closest stations for your current location </p>
+    </div>
+	<div class="overlay">
+          <input type="text" id="addressInput" size="10" value="" placeholder="Search Box"/>
+         <!-- <input type="submit" value="+" id="searchAddress">-->
+     </div>
+
+	<!--<form class="location" onsubmit="return false;">
 				<input type="text" placeholder='e.g., "HTML" or "HTML;CSS"' name="tags" size="20" autofocus required>
 				<input type="submit" value="Submit">
-	</form>
-	</div>
-	<div id ="maps" </div>
-		<p> RESULTS</p>
+	</form>-->
 
-	<div class= "traffic">
-	<p> View the amount of traffic to your location </p>	
-	<p> Traffic results</p>	
+	<div id ="map"> </div>
+		
+
+		
+
+
+	
+
 	
 	
- </body>
-	<div class= "bottom"> </div>
-	<iframe src="http://www.youtube.com/embed/u4pXtFOU6eY?autoplay=1"
-   width="560" height="315" frameborder="0" </iframe>
+
+	
 
 	
 </body>

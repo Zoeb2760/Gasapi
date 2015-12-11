@@ -1,3 +1,10 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
 
 .top {
 	background-color: #167AC6;
@@ -12,15 +19,47 @@ img.smalltobig {
 
 h1 {text-align: center;
 }	
-h2 {
-	text-align: center
-}
+h4 { text-align: center;}
+
+
 p {
 	text-align: center;
 }
-.location  {
-	text-align: center;
-}
+
+#addressInputHolder {
+            position:relative;
+        }
+      #addressInputHolder input{
+          width:200px!important;
+        }
+        
+          
+      
+      #addressInput {
+          background-color: blue;
+          font-size: 15px;
+          font-weight: 300;
+          margin-top: -.1em;
+          margin-left: 50em;
+          margin-right: 10em;
+          
+          padding: 0 11px 0 13px;
+          text-overflow: ellipsis;
+          width: 300px;
+      }
+#addressInput:focus {
+          border-color: #4d90fe;
+      }
+      #searchAddress {
+       
+       margin-top: -.1em;
+          margin-left: 50em;
+          margin-right: 10em;
+      }
+
+#map {
+        height: 100%;
+      }
 
 .bottom {
 	margin-top: 75em;
@@ -28,10 +67,8 @@ p {
 
 
 }
-#maps {
 
-	    width: 500px;
-        height: 400px;
-        background-color: #CCC;
-      }
-}
+
+
+
+      
